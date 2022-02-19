@@ -1,0 +1,64 @@
+{
+  "name": "expensify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joan Nobei",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "test": "jest  "
+  },
+  "dependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.7",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "css-loader": "5.2.7",
+    "enzyme": "3.0.0",
+    "enzyme-adapter-react-16": "1.0.0",
+    "enzyme-to-json": "3.0.1",
+    "jest-enzyme": "^7.1.2",
+    "live-server": "^1.2.1",
+    "moment": "2.29.1",
+    "node-sass": "5.0.0",
+    "normalize.css": "7.0.0",
+    "raf": "3.3.2",
+    "react": "17.0.2",
+    "react-addons-shallow-compare": "15.6.0",
+    "react-dates": "21.8.0",
+    "react-dom": "17.0.2",
+    "react-modal": "3.14.4",
+    "react-redux": "7.2.6",
+    "react-router-dom": "5.3.0",
+    "react-test-renderer": "17.0.2",
+    "redux": "4.1.2",
+    "sass-loader": "10.2.0",
+    "style-loader": "2.0.0",
+    "uuid": "3.1.0",
+    "validator": "13.7.0",
+    "webpack-dev-server": "4.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.4.5",
+    "babel-loader": "8.0.0-beta.0",
+    "jest": "27.4.7",
+    "regenerator-runtime": "^0.13.9",
+    "webpack": "4.46.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "jest": {
+    "setupFiles": [
+      "raf/polyfill",
+      "<rootDir>/public/src/tests/setupTests.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}

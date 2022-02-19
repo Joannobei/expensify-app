@@ -1,0 +1,11 @@
+{
+    "module.exports": {
+        "setupFiles": [
+            "raf/polyfill",
+            "<rootDir>/public/src/tests/setupTests.js"
+        ],
+        "roots": [
+            "tests"
+        ]
+    }
+}
