@@ -26,7 +26,7 @@
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "1.6.2",
     "moment": "2.29.1",
-    "node-sass": "5.0.0",
+    "node-sass": "6.0.1",
     "normalize.css": "7.0.0",
     "raf": "3.3.2",
     "react": "17.0.2",
